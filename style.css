@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: lightgrey;
+}
+#content {
+    background: grey;
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+}
+header {
+    background: lightgrey;
+    width: 1000px;
+    height: 100px
+}
+h1 {
+    width: 100%;
+    padding: 5px;
+    font-family: arial;
+    text-align: center;
+}
+h2 {
+    width: 100%;
+    padding: 5px;
+    font-family: arial;
+    text-align: center;
+}
+
+/*positioning and formating of the navigation bar*/
+
+#navigation {
+    float: left;
+    background: black;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    position: relative
+}
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    text-align: center;
+}
+li {
+    margin:0 50px;
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial;
+}
+/*change the of the link text when the user points to it with the mouse*/
+
+a:hover {
+    background-color: #111;
+}
+main {
+    background: gray;
+    width: 1000px;
+    height: 500px;
+    margin: 20px 0;
+}
+.mypicture {
+    float: left;
+    width: 40px;
+    height: 50%;
+    margin-left: 60px
+}
+/*positioning of the biography text on the index page*/
+
+.biography {
+    float: right;
+    margin-right: 60px;
+    width: 40%;
+    height: 80px;
+    font-family: arial;
+}
+footer {
+    background: gray;
+    width: 1000px;
+    margin: 20px 0;
+}
+/*create a container*/
+
+#content2 {
+    background: grey;
+    width: 1000px;
+    height: 1600px;
+    margin: 0 auto;
+}
+.summary {
+    float: left;
+    padding-top: 30px;
+    margin-left: 60px;
+    width: 40%;
+    height: 180px;
+    font-family: arial;
+    font-size: 14px;
+    overflow: hidden;
+}
+.education {
+    float: right;
+    padding-top: 30px;
+    margin-right: 60px;
+    width: 45%;
+    height: 400px;
+    font-family: arial;
+    font-size: 14px;
+}
+.experience {
+    float: none;
+    margin-left: 60px;
+    width: 50%;
+    height: 80px;
+    font-family: arial;
+    font-size: 14px;
+}
+.skills {
+    float: left;
+    margin-left: 60px;
+    width: 40%;
+    height: 250px;
+    font-family: arial;
+    font-size: 14px;
+    overflow: hidden;
+}
+.personal {
+    float: right;
+    margin-right: 60px;
+    width: 45%;
+    height: 80px;
+    font-family: arial;
+    font-size: 14px;
+}
+.mycountry {
+    float: left;
+    margin-left: 50px;
+    padding-top: 10px;
+    width: 200px;
+    height: 400px;
+    font-family: arial;
+    font-size: 14px;
+    overflow: hidden;
+}
+.congopicture {
+    float: left;
+    margin-left: 30px;
+    width: 400px;
+    height: 474px;
+}
+.videocongo {
+    float: left;
+    margin-left: 30px;
+    width: 320px;
+    height: 180px;
+}
+#map {
+	 float:right;
+   width: 50%;
+   height: 400px;
+   background-color: grey;
+ }
