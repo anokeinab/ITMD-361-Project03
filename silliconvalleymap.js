@@ -9,4 +9,3 @@ function initMap() {
           map: map
         });
       }
-			Latitude:37° 21' 45.0612". Longitude:-122° 2' 5.136". 
