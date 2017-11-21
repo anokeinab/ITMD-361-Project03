@@ -79,7 +79,7 @@ main {
     height: 50%;
     margin-left: 60px
 }
-.mypicture img {
+.mypicture img.style {
          width="40px";
          height="50%";
 }
