@@ -77,11 +77,7 @@ main {
     float: left;
     width: 40px;
     height: 50%;
-    margin-left: 60px
-}
-.mypicture img.style {
-         width="40px";
-         height="50%";
+    margin-left: 60px;
 }
 /*positioning of the biography text on the index page*/
 
