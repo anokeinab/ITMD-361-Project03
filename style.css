@@ -79,6 +79,10 @@ main {
     height: 50%;
     margin-left: 60px
 }
+.mypicture img {
+         width="378";
+         height="504";
+}
 /*positioning of the biography text on the index page*/
 
 .biography {
@@ -156,10 +160,7 @@ footer {
     overflow: hidden;
      width="378" height="504"
 }
-    .img {
-         width="378";
-         height="504";
-}
+   
 .congopicture {
     float: left;
     margin-left: 100px;
