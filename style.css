@@ -165,6 +165,7 @@ footer {
 }
 .videocongo {
     float: left;
+    margin-top: 20px;
     margin-left: 150px;
     width: 320px;
     height: 180px;
@@ -172,6 +173,7 @@ footer {
 #map {
    float:right;
    margin-right:300px;
+   margin-top: 20px;
    width: 50%;
    height: 400px;
    background-color: grey;
